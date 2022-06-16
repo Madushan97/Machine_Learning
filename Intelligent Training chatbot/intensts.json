@@ -1,0 +1,102 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hello",
+                "hey",
+                "hi",
+                "good day",
+                "greetings",
+                "what's up?",
+                "how is it going?"
+            ],
+            "responses": [
+                "Hello!",
+                "Hey!",
+                "What can I do for you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "cya",
+                "see you later",
+                "goodbye",
+                "I am Leaving",
+                "Have a good day",
+                "bye",
+                "cao",
+                "see ya"
+            ],
+            "responses": [
+                "sad to see you go!",
+                "Talk to you later",
+                "GoodBye",
+                ":("
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old?",
+                "how old is florian",
+                "what is your age?",
+                "how old are you?",
+                "age?"
+            ],
+            "responses": [
+                "My owner Florian is 21 years old",
+                "21 years!"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what is your name?",
+                "what should I call you?",
+                "Who are you?",
+                "can you tell me your name?"
+            ],
+            "responses": [
+                "You can call me Madushan!",
+                "I'm Nurel!",
+                "I'm Neural the assisstance of Florian"
+            ]
+        },
+        {
+            "tag": "shop",
+            "patterns": [
+                "I had like to buy something",
+                "what are your products",
+                "what do you recommend?",
+                "what are you selling?"
+            ],
+            "responses": [
+                "NeuralNine has a seven part python book series"
+            ]
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "when are you guys open",
+                "what are your hours",
+                "hours of operation"
+            ],
+            "responses": [
+                "24/7"
+            ]
+        },
+        {
+            "tag": "stocks",
+            "patterns": [
+                "what stocks do I own?",
+                "How are my shares",
+                "What companies you own?"
+            ],
+            "responses": [
+                "You own the following shares : ABBV, AAPL, CE and CDS"
+            ]
+        }
+    ]
+}
