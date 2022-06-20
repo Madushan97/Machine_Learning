@@ -1,0 +1,98 @@
+{ "intents" :
+  [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hey",
+        "hi",
+        "Good day",
+        "Greetings",
+        "what's up?",
+        "how is it going?"
+      ],
+      "responses" : [
+        "Hello",
+        "Hey",
+        "What can I do for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "see you later",
+        "good bye",
+        "I'm Leaving",
+        "Have a good day",
+        "bye",
+        "cao",
+        "see ya"
+      ],
+      "responses" : [
+        "Sad to see you go",
+        "Talk to you later",
+        "GoodBye!"
+      ]
+    },{
+      "tag": "age",
+      "patterns": [
+        "how old?",
+        "how old is Nipuna",
+        "what is your age?",
+        "How old are you?",
+        "age?"
+      ],
+      "responses" : [
+        "My owner Nipuna is 25 years old.",
+        "25 years old."
+      ]
+    },{
+      "tag": "name",
+      "patterns": [
+        "what is your name?",
+        "what should I call you?",
+        "what's your name",
+        "who are you?",
+        "can you tell me your name?"
+      ],
+      "responses" : [
+        "You can call me Neural",
+        "I'm Neural!",
+        "I'm Neural the assistance of Nipuna"
+      ]
+    },{
+      "tag": "shop",
+      "patterns": [
+        "I had like to buy something",
+        "what are your products",
+        "what do you recommend?",
+        "what are you selling?"
+      ],
+      "responses" : [
+        "We have 7 python chapters "
+      ]
+    },{
+      "tag": "hours",
+      "patterns": [
+        "when are you guys open",
+        "what are your hours?",
+        "hours of operations"
+      ],
+      "responses" : [
+        "24/7"
+      ]
+    },{
+      "tag": "stocks",
+      "patterns": [
+        "what stocks do I own?",
+        "how are my shares?",
+        "what companies am I investing in?",
+        "what am I doing?"
+      ],
+      "responses" : [
+        "You own the following shares: ABBV, AAPL, FB"
+      ]
+    }
+  ]
+}
